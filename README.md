@@ -25,7 +25,7 @@ To run this program, you can use Remix, an online Solidity IDE. Follow these ste
 3. Save the file with a .sol extension and name it Assessment.sol.
 4. Copy and paste the following code into the file.
 
-solidity
+```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.7;
 
@@ -52,7 +52,7 @@ contract MyToken {
         }
     }
 }
-
+```
 
 ### Deploying and Interacting with the Contract
 
@@ -64,9 +64,22 @@ contract MyToken {
    - Navigate to the "Deploy & Run Transactions" tab.
    - Select "MyToken" from the contract dropdown menu.
    - Click the "Deploy" button.
+  
+##
 
 3. *Interact with the Contract*:
    - After deployment, you can interact with the contract using the provided UI in Remix.
    - Use the mint function to mint new tokens by providing an address and the number of tokens.
    - Use the burn function to burn tokens from an address by providing the address and the number of tokens to be burned.
    - View the totalSupply and balances to check the total supply of tokens and the balance of any address.
+
+
+4. *Author*:
+   - Rishita Sharma 
+   - @rishitaa00      
+
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.**
+
